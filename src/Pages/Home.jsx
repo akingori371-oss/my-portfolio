@@ -73,7 +73,7 @@ function Navbar({ dark, setDark }) {
         </a>
 
         <div className="flex items-center gap-4 sm:gap-7">
-          <div className="flex items-center gap-3 text-xs font-medium sm:gap-6 sm:text-sm">
+          <div className="flex items-center gap-3 font-nav text-xs font-medium sm:gap-6 sm:text-sm">
             {links.map((link) => (
               <a
                 key={link}
@@ -186,7 +186,7 @@ function Hero() {
 function About() {
   const details = [
     { icon: BriefcaseBusiness, text: "Software Engineer" },
-    { icon: GraduationCap, text: "Computer Science Student" },
+    { icon: GraduationCap, text: "Zindua Graduate 2026" },
     { icon: MapPin, text: "Based in Kenya" },
   ];
 
